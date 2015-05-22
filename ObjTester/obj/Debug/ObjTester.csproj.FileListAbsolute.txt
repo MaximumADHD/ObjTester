@@ -10,3 +10,15 @@ C:\Users\Maxwell\Desktop\ObjTester\ObjTester\obj\Debug\ObjTester.Results.resourc
 C:\Users\Maxwell\Desktop\ObjTester\ObjTester\obj\Debug\ObjTester.exe
 C:\Users\Maxwell\Desktop\ObjTester\ObjTester\obj\Debug\ObjTester.pdb
 C:\Users\Maxwell\Desktop\ObjTester\ObjTester\obj\Debug\ObjTester.Input.resources
+C:\Users\Maxwell\Desktop\ObjTester\ObjTester\ObjTester\bin\Debug\ObjTester.exe.config
+C:\Users\Maxwell\Desktop\ObjTester\ObjTester\ObjTester\obj\Debug\ObjTester.exe
+C:\Users\Maxwell\Desktop\ObjTester\ObjTester\ObjTester\obj\Debug\ObjTester.pdb
+C:\Users\Maxwell\Desktop\ObjTester\ObjTester\ObjTester\bin\Debug\ObjTester.exe
+C:\Users\Maxwell\Desktop\ObjTester\ObjTester\ObjTester\bin\Debug\ObjTester.pdb
+C:\Users\Maxwell\Desktop\ObjTester\ObjTester\ObjTester\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Maxwell\Desktop\ObjTester\ObjTester\ObjTester\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Maxwell\Desktop\ObjTester\ObjTester\ObjTester\obj\Debug\ObjTester.csprojResolveAssemblyReference.cache
+C:\Users\Maxwell\Desktop\ObjTester\ObjTester\ObjTester\obj\Debug\ObjTester.Input.resources
+C:\Users\Maxwell\Desktop\ObjTester\ObjTester\ObjTester\obj\Debug\ObjTester.Properties.Resources.resources
+C:\Users\Maxwell\Desktop\ObjTester\ObjTester\ObjTester\obj\Debug\ObjTester.Results.resources
+C:\Users\Maxwell\Desktop\ObjTester\ObjTester\ObjTester\obj\Debug\ObjTester.csproj.GenerateResource.Cache

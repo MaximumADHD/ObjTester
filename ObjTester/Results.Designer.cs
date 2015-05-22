@@ -46,10 +46,11 @@
             // 
             // resultsList
             // 
+            this.resultsList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.resultsList.FormattingEnabled = true;
             this.resultsList.Location = new System.Drawing.Point(13, 27);
             this.resultsList.Name = "resultsList";
-            this.resultsList.Size = new System.Drawing.Size(253, 173);
+            this.resultsList.Size = new System.Drawing.Size(253, 169);
             this.resultsList.TabIndex = 1;
             this.resultsList.SelectedIndexChanged += new System.EventHandler(this.resultsList_SelectedIndexChanged);
             // 
@@ -79,14 +80,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(279, 246);
-            this.ControlBox = false;
             this.Controls.Add(this.title);
             this.Controls.Add(this.openUrl);
             this.Controls.Add(this.resultsList);
             this.Controls.Add(this.backButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "Results";
-            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Results";
             this.ResumeLayout(false);

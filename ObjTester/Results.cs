@@ -50,11 +50,17 @@ namespace ObjTester
             logging = false;
         }
 
+        bool errored = false;
+
         public void error(string msg)
         {
-            this.Enabled = false;
-            MessageBox.Show(msg, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            this.Close();
+            if (!errored)
+            {
+                errored = true;
+                this.Enabled = false;
+                MessageBox.Show(msg, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Close();
+            }
         }
 
         public string resolveHash(string hash)

@@ -34,13 +34,15 @@ namespace ObjTester
             Results results = null;
             if (condition != 3)
             {
-                int test = 0;
-                Int32.TryParse(inputBox.Text, out test);
-                if (test != 0)
+                try
                 {
-                    results = new Results(test, condition);
+                    int test = Int32.Parse(inputBox.Text);
+                    if (test != 0)
+                    {
+                        results = new Results(test, condition);
+                    }
                 }
-                else
+                catch
                 {
                     error("Invalid input");
                     inputBox.Clear();
@@ -52,13 +54,13 @@ namespace ObjTester
             }
             try
             {
-                this.Enabled = false;
+                //this.Enabled = false;
                 results.Show();
                 results.FormClosed += new FormClosedEventHandler(onClosed);
             }
             catch
             {
-                this.Enabled = true;
+                //this.Enabled = true;
             }
         }
 
